@@ -9,7 +9,7 @@ const Header = () => {
 						<div className='header'>
 							<div className='row'>
 								<div className="col-md-3">
-									<img alt='' role='presentation' className='logo' src={require('../../static/img/logo.svg')} width="106" height="75" />
+									<img alt='' className='logo' src={require('../../static/img/logo.svg')} width="106" height="75" />
 								</div>
 								<div className="col-md-9">
 									<ul className='pull-right'>

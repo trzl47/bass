@@ -9,7 +9,7 @@ const InfoBarB = props => (
 						<p>{props.desc}</p>
 					</div>
 					<div className="col-md-6">
-						<img alt='' role='presentation' src={props.img} width="450" height="300" />
+						<img alt='' src={props.img} width="450" height="300" />
 					</div>
 				</div>
 			</div>
