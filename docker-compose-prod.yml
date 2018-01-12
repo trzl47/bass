@@ -1,8 +1,8 @@
 version: '3'
 services:
   web:
-    image: trzl/bass-web
-    container_name: bass-web
+    image: trzl/bass-web_v1
+    container_name: bass-web_v1
     restart: unless-stopped
     expose:
       - "80"
