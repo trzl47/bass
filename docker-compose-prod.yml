@@ -1,12 +1,18 @@
 version: '3'
 services:
-  web:
-    image: trzl/bass-web
-    container_name: bass-web
+  bass-nginx:
+    image: trzl/portfolio:bass-react.1
+    container_name: bass-nginx
+    restart: unless-stopped
+  reverseproxy:
+    image: trzl/portfolio:bass-proxy.1
+    container_name: bass-proxy
     restart: unless-stopped
     expose:
       - "80"
       - "443"
+    depends_on:
+      - bass-nginx
     environment:
       VIRTUAL_HOST: bass.tbrownkcdev.com
       LETSENCRYPT_HOST: bass.tbrownkcdev.com
