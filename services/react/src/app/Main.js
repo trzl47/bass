@@ -18,7 +18,7 @@ class Main extends Component {
 					<Route exact={true} pattern="/" component={Home} />
 					<Route path="*" component={NotFound} />
 				</Switch>
-				{/* <Footer /> */}
+				<Footer />
 			</div>
 		);
 	}
