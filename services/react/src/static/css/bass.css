@@ -1,15 +1,3 @@
-.download {
-		background: url('../../static/img/feature.jpg') no-repeat center center;
-		background-size: cover;
-		color: #fff;
-		text-align: center;
-		height: 400px;
-}
-
-.download h2 {
-		margin-top: 80px;
-}
-
 .footer {
 		background-color: #000;
 		color: #fff;

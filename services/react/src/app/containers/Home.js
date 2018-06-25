@@ -11,7 +11,7 @@ export default class Home extends Component {
 			<div className='bass'>
 				<Banner />
 				<AboutSupporting />
-				{/* <Download /> */}
+				<Download />
 			</div>
 		);
 	}

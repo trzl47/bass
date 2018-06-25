@@ -1,0 +1,21 @@
+.download {
+	background: url('../../static/img/feature.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dl-header {
+	font-size: 2rem;
+}
+
+.stores {
+	display:inline-flex;
+	align-items: center;
+	justify-content: center;
+}
