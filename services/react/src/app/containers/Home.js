@@ -10,7 +10,7 @@ export default class Home extends Component {
 		return(
 			<div className='bass'>
 				<Banner />
-				{/* <AboutSupporting /> */}
+				<AboutSupporting />
 				{/* <Download /> */}
 			</div>
 		);
