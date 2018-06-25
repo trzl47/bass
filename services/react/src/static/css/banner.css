@@ -1,0 +1,37 @@
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+	align-items: center;
+	background: url('../img/bg.jpg') no-repeat center center;
+	background-size: cover;
+	background-color: transparent;
+	height: 100vh;
+}
+
+.header {
+	grid-area: header;
+}
+.header a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.pull-right {
+	padding-top: 40px;
+}
+
+.header .btn {
+	border: 0px;
+	border-radius: 0;
+	background-color: #ff003d;
+}
+
+.main {
+	color: #fff;
+}
+
+.jumbotron p {
+	font-size: 21px;
+	font-weight: 200;
+}

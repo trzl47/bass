@@ -7,8 +7,8 @@ import Footer from './containers/Footer.js';
 import NotFound from './NotFound';
 // styles
 import '../static/css/reset.css';
-import '../static/css/bass.css';
-// import '../static/css/index.css';
+// import '../static/css/bass.css';
+import '../static/css/index.css';
 
 class Main extends Component {
 	render() {
@@ -18,7 +18,7 @@ class Main extends Component {
 					<Route exact={true} pattern="/" component={Home} />
 					<Route path="*" component={NotFound} />
 				</Switch>
-				<Footer />
+				{/* <Footer /> */}
 			</div>
 		);
 	}
