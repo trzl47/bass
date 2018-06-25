@@ -1,19 +1,15 @@
 import React from 'react';
+// styles
+import '../../static/css/infobarA.css';
 
 const InfoBarA = props => (
-    <div className="infobar infobarA">
-			<div className='container'>
-				<div className="row">
-					<div className="col-md-6">
-						<img alt='' src={props.img} width="450" height="300" />
-					</div>
-					<div className="col-md-6">
-						<h2>{props.title}</h2>
-						<p>{props.desc}</p>
-					</div>
-				</div>
-			</div>
-    </div>
+	<div className="infobar infobarA">
+		<img className='info-image' alt='' src={props.img} />
+		<div className="info">
+			<h2 className='info-header'>{props.title}</h2>
+			<p className='info-content'>{props.desc}</p>
+		</div>
+	</div>
 );
 
 export default InfoBarA;

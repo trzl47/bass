@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import InfoBarA from '../components/infobarA.js';
 import InfoBarB from '../components/infobarB.js';
 import infopanels from '../components/infopanels.js';
+// styles
+import '../../static/css/about.css';
 
 class AboutSupporting extends Component {
 	render() {
@@ -14,24 +16,24 @@ class AboutSupporting extends Component {
 				:
 				infobarB.push(obj);
 		});
-    infobarA = infobarA.map((infobar) => {
-      return <InfoBarA title={infobar.title}
+		infobarA = infobarA.map((infobar) => {
+			return <InfoBarA title={infobar.title}
 										desc={infobar.description}
 										img={infobar.img}
-                    key={infobar.id} />
-    });
+										key={infobar.id} />;
+		});
 		infobarB = infobarB.map((infobar) => {
-      return <InfoBarB title={infobar.title}
+			return <InfoBarB title={infobar.title}
 										desc={infobar.description}
 										img={infobar.img}
-                    key={infobar.id} />
-    });
-    return (
+										key={infobar.id} />;
+		});
+		return (
 				<div className="about">
-					{ infobarA.concat(infobarB).sort(function(a, b){ return a.key - b.key }) }
+					{ infobarA.concat(infobarB).sort(function(a, b){ return a.key - b.key; }) }
 				</div>
-    );
-  }
+		);
+	}
 }
 
 export default AboutSupporting;

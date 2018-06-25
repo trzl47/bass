@@ -1,0 +1,24 @@
+.infobarB {
+	background-color: #000;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	grid-template-areas:
+		"image"
+		"info";
+	padding: 2rem;
+}
+.infobarB .info-image {
+	grid-area: image;
+	max-width: inherit;
+	max-height: inherit;
+	/* width: 450px; */
+	/* height: 300px; */
+}
+.infobarB .info {
+	grid-area: info;
+}
+
+.info-header {
+	font-size: 2rem;
+}

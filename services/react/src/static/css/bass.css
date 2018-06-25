@@ -1,11 +1,3 @@
-.infobar, .download {
-		padding: 70px 30px;
-}
-
-.infobarB {
-		background-color: #000;
-}
-
 .download {
 		background: url('../../static/img/feature.jpg') no-repeat center center;
 		background-size: cover;
