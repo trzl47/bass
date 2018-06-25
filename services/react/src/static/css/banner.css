@@ -7,10 +7,30 @@
 	height: 100vh;
 	padding: 2rem 1rem;
 }
+@media only screen and (min-width: 768px) {
+	.jumbotron {
+		display: grid;
+		grid-template-rows: 2;
+		grid-template-columns: 1;
+		grid-template-areas:
+			"banner-header"
+			"banner";
+		padding: 2rem 20rem;
+		height: 60vh;
+	}
+}
 
 .header {
+	grid-area: banner-header;
 	display: flex;
 	flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+	.header {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
 .header a {
 	color: #fff;
@@ -44,6 +64,7 @@
 }
 
 .banner {
+	grid-area: banner;
 	padding-top: 60px;
 	color: #fff;
 }
