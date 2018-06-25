@@ -14,7 +14,7 @@ const Banner = () => {
 						<li><a className='btn' href="bass.tbrownkcdev.com">Download</a></li>
 					</ul>
 				</div>
-				<div className='main'>
+				<div className='banner'>
 					<h1>Turn Up the Bass</h1>
 					<p>From the newest releases to classic albums, we have the best music for you to enjoy.</p>
 				</div>

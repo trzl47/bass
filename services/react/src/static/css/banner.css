@@ -1,37 +1,57 @@
 .jumbotron {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-around; */
-	align-items: center;
 	background: url('../img/bg.jpg') no-repeat center center;
 	background-size: cover;
 	background-color: transparent;
 	height: 100vh;
+	padding: 2rem 1rem;
 }
 
 .header {
-	grid-area: header;
+	display: flex;
+	flex-direction: column;
 }
 .header a {
 	color: #fff;
 	font-weight: bold;
+	text-decoration: none;
+}
+.header a:hover {
+	text-decoration: underline;
 }
 
 .pull-right {
 	padding-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	float: right !important;
+}
+.pull-right li {
+	margin-left: 13px;
 }
 
 .header .btn {
 	border: 0px;
 	border-radius: 0;
 	background-color: #ff003d;
+	padding: 8px 30px;
+	text-decoration: none;
+}
+.header .btn:hover {
+	text-decoration: none;
 }
 
-.main {
+.banner {
+	padding-top: 60px;
 	color: #fff;
 }
-
-.jumbotron p {
+.banner h1 {
+	font-size: 2.5rem;
+	/* white-space: nowrap; */
+}
+.banner p {
 	font-size: 21px;
 	font-weight: 200;
 }
