@@ -3,7 +3,7 @@ import React from 'react';
 import '../../static/css/infobarA.css';
 
 const InfoBarA = props => (
-	<div className="infobar infobarA">
+	<div className="infobarA">
 		<img className='info-image' alt='' src={props.img} />
 		<div className="info">
 			<h2 className='info-header'>{props.title}</h2>

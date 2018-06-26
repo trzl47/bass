@@ -2,8 +2,8 @@ import React from 'react';
 // styles
 import '../../static/css/infobarB.css';
 
-const InfoBarB = props => (
-	<div className="infobar infobarB">
+const InfoBarA = props => (
+	<div className="infobarB">
 		<div className="info">
 			<h2 className='info-header'>{props.title}</h2>
 			<p className='info-content'>{props.desc}</p>
@@ -12,4 +12,4 @@ const InfoBarB = props => (
 	</div>
 );
 
-export default InfoBarB;
+export default InfoBarA;

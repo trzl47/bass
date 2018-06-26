@@ -5,17 +5,29 @@
 	grid-template-areas:
 		"image"
 		"info";
-	padding: 2rem;
+	width: 100%;
 }
 .infobarA .info-image {
 	grid-area: image;
 	max-width: inherit;
 	max-height: inherit;
-	/* width: 450px; */
-	/* height: 300px; */
 }
 .infobarA .info {
 	grid-area: info;
+}
+@media only screen and (min-width: 768px) {
+	.infobarA {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.infobarA .info-image {
+		max-width: 450px;
+		max-height: 300px;
+	}
+	.infobarA .info {
+		max-width: 450px;
+	}
 }
 
 .info-header {

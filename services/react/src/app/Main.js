@@ -7,7 +7,6 @@ import Footer from './containers/Footer.js';
 import NotFound from './NotFound';
 // styles
 import '../static/css/reset.css';
-// import '../static/css/bass.css';
 import '../static/css/index.css';
 
 class Main extends Component {
