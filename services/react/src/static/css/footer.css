@@ -1,0 +1,54 @@
+.footer {
+		background-color: #000;
+		color: #fff;
+		padding: 50px 35px;
+		display: grid;
+		grid-template-rows: auto;
+		grid-auto-columns: auto;
+		grid-template-areas:
+			"get about"
+			"help community";
+		justify-content: space-around;
+}
+.footer h3 {
+		text-transform: uppercase;
+		font-size: 15px;
+}
+.footer ul {
+		padding: 0;
+		list-style: none;
+}
+.footer a {
+		color: #aaa;
+		font-size: 13px;
+		display: inline-block;
+		padding: 5px 0;
+		text-decoration: none;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+	.footer {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
+
+.getbass {
+	grid-area: get;
+}
+
+.aboutbass {
+	grid-area: about;
+}
+
+.helpbass {
+	grid-area: help;
+}
+
+.communitybass {
+	grid-area: community;
+}

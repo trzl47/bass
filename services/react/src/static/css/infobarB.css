@@ -1,0 +1,36 @@
+.infobarB {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	grid-template-areas:
+		"image"
+		"info";
+	background-color: #000;
+	width: 100%;
+}
+.infobarB .info-image {
+	grid-area: image;
+	max-width: inherit;
+	max-height: inherit;
+}
+.infobarB .info {
+	grid-area: info;
+}
+@media only screen and (min-width: 768px) {
+	.infobarB {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.infobarB .info-image {
+		max-width: 450px;
+		max-height: 300px;
+	}
+	.infobarB .info {
+		max-width: 450px;
+	}
+}
+
+.info-header {
+	font-size: 2rem;
+}
