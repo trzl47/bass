@@ -10,8 +10,8 @@ const Banner = () => {
 				<div className='header'>
 					<img alt='' className='logo' src={require('../../static/img/logo.svg')} width="106" height="75" />
 					<ul className='pull-right'>
-						<li><a href="bass.tbrownkcdev.com">Features</a></li>
-						<li><a className='btn' href="bass.tbrownkcdev.com">Download</a></li>
+						<li><a href="/#">Features</a></li>
+						<li><a className='btn' href="/#">Download</a></li>
 					</ul>
 				</div>
 				<div className='banner'>
